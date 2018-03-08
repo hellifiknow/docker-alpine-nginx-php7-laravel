@@ -33,6 +33,3 @@ apk add --update php7-ctype
 apk add --update php7-fileinfo
 apk add --update php7-sockets
 apk add --update php7-dom
-
-# Clear
-rm -rf /var/cache/apk/*

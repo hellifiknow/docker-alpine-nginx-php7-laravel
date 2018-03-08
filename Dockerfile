@@ -5,6 +5,6 @@ MAINTAINER Olivier Blunt <contact@blunt.sh>
 # Args changes
 ARG STATIC_DIR=public
 
-# Setup
-COPY ??-*.sh /setup/
-RUN /bin/sh /setup/setup.sh
+# Install
+COPY ??-*.sh /install/
+RUN /bin/sh /install/install.sh
